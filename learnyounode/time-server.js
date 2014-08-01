@@ -1,5 +1,6 @@
 var net = require('net')
 
+// add 0 if number is less than 10
 function padded(timeChunk){
   console.log(timeChunk)
   if(timeChunk < 10){
