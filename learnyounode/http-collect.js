@@ -1,9 +1,9 @@
 // require http client
-var http = require('http')
+var http = require('http');
 // grab the url
-var url = process.argv[2]
+var url = process.argv[2];
 // variable for collecting all data
-var all_data = ''
+var all_data = '';
 
 http.get(url, function (response) {
 
