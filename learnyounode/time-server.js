@@ -12,7 +12,7 @@ function padded(timeChunk){
 
 // create server
 var server = net.createServer(function(socket) {
-  date_time = new Date();
+  date_time = new Date(); // create new time instance
   // console.log(date_time)
   var year = padded(date_time.getFullYear());
   var month = padded(date_time.getMonth()+1);
