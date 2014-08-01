@@ -24,7 +24,7 @@ urls.forEach(function (url, index) {
   });
 });
 
-// loop through array, outputting each
+// loop through array, outputting each element
 function output_results () {
   for (var i = 0; i < 3; i++)
     console.log(results[i])
