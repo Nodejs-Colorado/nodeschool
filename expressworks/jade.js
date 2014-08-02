@@ -9,4 +9,4 @@ app.get('/home', function(req, res) {
 
   res.render('index', {date: new Date().toDateString()}) // pass date into jade
 
-}).listen(process.argv[2]);
+}).listen(process.argv[2]); // listen on supplied port
