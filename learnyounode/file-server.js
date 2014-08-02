@@ -1,7 +1,7 @@
 var http = require('http');  // require http client
 var fs = require('fs');      // access file system
 
-console.log(process.argv[3])
+// console.log(process.argv[3])
 
 // create server
 http.createServer(function(req, res){
