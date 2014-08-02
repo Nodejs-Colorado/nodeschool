@@ -1,5 +1,5 @@
 var http = require('http');  // require http client
-var map = map = require('through2-map');
+var map = require('through2-map');
 
 // create server
 http.createServer(function(req, res){
