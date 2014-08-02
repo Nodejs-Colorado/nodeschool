@@ -1,6 +1,6 @@
-module.exports  = function countWords(array) {
-  return array.reduce(function(countMap, word) {
-    countMap[word] = ++countMap[word] || 1 // increment or initialize to 1
-    return countMap
-  }, {}) // second argument to reduce initialises countMap to {}
+module.exports  = function countWords(array_of_words) {
+  return array_of_words.reduce(function(results, word) {
+    results[word] = ++results[word] || 1 // increment or initialize to 1 - ?
+    return results
+  }, {}) // second argument to reduce results to {}
 }
